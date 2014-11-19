@@ -31,8 +31,22 @@ class TestSaleItem(unittest.TestCase):
 		a multithreaded application
 		"""
 		pass # nothing to do
-
-
+		
+	def test_GetCost(self):
+		
+		self.assertEqual(self.theSaleItem.getCost(), '10')
+		
+	def test_GetWeight(self):
+		self.assertEqual(self.theSaleItem.getWeight(), '2')
+		
+	def test_GetTitle(self):
+		self.assertEqual(self.theSaleItem.getTitle(), 'TestItem')
+		
+	def test_GetDetailsAsString(self):
+		self.assertEqual(self.theSaleItem.getDetailsAsString(), 'TestItem $10')
+		
+	def test_GetID(self):
+		self.assertEqual(self.theSaleItem.getID(), 5)
 
 	def test_GetFreeShipping(self):
 		
