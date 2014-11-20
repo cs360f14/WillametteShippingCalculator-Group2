@@ -33,3 +33,6 @@ Student Tasks
 * Fix any bugs found!
 
 
+[![Build 
+Status](https://travis-ci.org/cs360f14/WillametteShippingCalculator-Group2.svg)] 
+(https://travis-ci.org/cs360f14/WillametteShippingCalculator-Group2)
