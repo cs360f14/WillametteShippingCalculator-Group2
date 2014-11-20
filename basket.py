@@ -49,7 +49,7 @@ class Basket:
 		""" determine if the basket contains this itemID """
 		found = False
 		for item in self._items:
-			if item[1].getID() == itemID:
+			if item.getID() == itemID:
 				found = True
 					
 		return found
@@ -61,7 +61,7 @@ class Basket:
 		
 		found = False
 		for item in self._items:
-			if item[1].getID() == itemID:
+			if item.getID() == itemID:
 				item[0] = qty
 				found = True
 					
