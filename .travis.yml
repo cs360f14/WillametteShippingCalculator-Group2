@@ -6,3 +6,4 @@ python:
 script:
 - python -m unittest test_SaleItemUnitTest -v
 - python -m unittest test_ShippingLogicUnitTest -v
+- python -m unittest test_basketUnitTest -v
